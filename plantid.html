@@ -23,7 +23,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
             <a class="nav-link" href="index.html">about</a>
             <a class="nav-link" href="#">work</a>
              <a class="nav-link" href="#">skills</a>
@@ -43,11 +43,14 @@
 
      <div class="row">
        <div class="col text-end">
-         <button type="button" class="btn btn-primary">Primary</button>
+         <div class="custom-file">
+           <input type="file" accept="image/*" class="custom-file-input" id="photoInput">
+           <label class="custom-file-label" for="photoInput"></label>
+         </div>
        </div>
 
       <div class="col">
-        <button type="button" class="btn btn-secondary">Secondary</button>
+        <button type="button" class="btn btn-success"  onclick="uploadAndIdentifyPlantID()">submit</button>
       </div>
      </div>
      
